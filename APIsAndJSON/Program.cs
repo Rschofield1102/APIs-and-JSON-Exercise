@@ -11,8 +11,9 @@ namespace APIsAndJSON
             for(int i = 0; i <=10;i++)
                 if(numAttemps <= 10)
             RonVSKanyeAPI.Kayne();
+            Thread.Sleep(500);
             RonVSKanyeAPI.Ron();
-            Thread.Sleep(1000000);
+           
         }
     }
 }
